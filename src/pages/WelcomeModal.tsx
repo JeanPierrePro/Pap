@@ -98,7 +98,7 @@ export function Home() {
 
       <main className="flex-1 flex flex-col items-center justify-center p-6 md:p-12 overflow-y-auto">
         <header className="text-center mb-16">
-          <h1 className="text-5xl font-black text-slate-900 uppercase italic tracking-tighter">Minhas Jornadas</h1>
+          <h1 className="text-5xl font-black text-slate-900 uppercase italic tracking-tighter">Estudar</h1>
           <p className="text-blue-600 font-bold uppercase tracking-[4px] text-[10px] mt-2">Escolha uma matéria para começar</p>
         </header>
 

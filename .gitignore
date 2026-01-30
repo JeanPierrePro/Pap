@@ -1,24 +1,43 @@
-# Logs
-logs
+# === Dependências ===
+node_modules/
+__pycache__/
+*.py[cod]
+*$py.class
+venv/
+env/
+
+# === Build e Instaladores (O que causou o primeiro erro) ===
+dist/
+dist-ssr/
+dist_electron/
+build/
+bin/
+obj/
+out/
+*.exe
+*.msi
+*.asar
+*.zip
+*.dmg
+
+# === Segurança e Chaves (O que bloqueou o Push) ===
+# Ignora especificamente a chave do Firebase que apareceu na imagem
+backend/prova-de-avalicao-final-firebase-adminsdk-fbsvc-*.json
+
+# Ignora qualquer outro ficheiro JSON de credenciais
+*.json
+!package.json
+!package-lock.json
+!tsconfig.json
+!composer.json
+
+# Ficheiros de ambiente
+.env
+.env.*
+
+# === Logs e IDEs ===
 *.log
-npm-debug.log*
-yarn-debug.log*
-yarn-error.log*
-pnpm-debug.log*
-lerna-debug.log*
-
-node_modules
-dist
-dist-ssr
-*.local
-
-# Editor directories and files
-.vscode/*
-!.vscode/extensions.json
-.idea
+.vscode/
+.idea/
 .DS_Store
-*.suo
-*.ntvs*
-*.njsproj
-*.sln
-*.sw?
+Thumbs.db
